@@ -1,9 +1,12 @@
-﻿namespace Sample1
+﻿using System;
+
+namespace Sample1
 {
     public class Calc: ICalc
     {
         public long Add(int a, int b)
         {
+            Console.WriteLine("add");
             return a + b;
         }
 
