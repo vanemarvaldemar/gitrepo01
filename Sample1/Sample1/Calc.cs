@@ -1,6 +1,6 @@
 ﻿namespace Sample1
 {
-    public class Calc
+    public class Calc: ICalc
     {
         public long Add(int a, int b)
         {
