@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sample1
+﻿namespace Sample1
 {
     public class Calc
     {
@@ -20,6 +14,11 @@ namespace Sample1
         public double DivB(int a, int b)
         {
             return (double)a / b;
+        }
+
+        public double DivD(int a, int b)
+        {
+            return (double)a / (double)b;
         }
 
     }
