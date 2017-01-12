@@ -21,5 +21,9 @@
             return (double)a / (double)b;
         }
 
+        public long Mult(int a, int b)
+        {
+            return a*b;
+        }
     }
 }

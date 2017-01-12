@@ -6,5 +6,6 @@
         int Div(int a, int b);
         double DivB(int a, int b);
         double DivD(int a, int b);
+        long Mult(int a, int b);
     }
 }
