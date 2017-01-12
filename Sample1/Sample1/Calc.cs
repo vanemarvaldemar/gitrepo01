@@ -17,6 +17,10 @@ namespace Sample1
         {
             return a / b;
         }
+        public double DivB(int a, int b)
+        {
+            return (double)a / b;
+        }
 
     }
 }
